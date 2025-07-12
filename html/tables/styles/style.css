@@ -1,0 +1,33 @@
+table {
+  border: 1px solid grey;
+  /* border-spacing: 10px;
+  border-collapse: separate; */
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th,
+td {
+  border: 1px solid grey;
+  text-align: center;
+  height: 70px;
+  /* vertical-align: bottom; */
+}
+/* tr:hover {
+  background-color: coral;
+} */
+
+/* table tr:nth-child(even) {
+  background-color: aquamarine;
+}
+table tr:nth-child(odd) {
+  background-color: rgb(173, 232, 78);
+} */
+
+table tr:first-child {
+  background-color: beige;
+}
+
+table tr:last-child {
+  background-color: rgb(178, 181, 233);
+}
